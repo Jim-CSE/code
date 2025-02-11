@@ -1,0 +1,9 @@
+gpa(ashik,3.45).
+gpa(rukon,3.50).
+gpa(moni,3.25).
+gpa(zaman,3.35).
+gpa(abid,3.55).
+result:- write('Enter student name:'),
+read(X),gpa(X,Y),nl,
+write('GPA is '),
+write(Y).
